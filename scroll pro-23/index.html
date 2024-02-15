@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="home">
+        <div class="nav-bar">
+            <div class="nav-left">Logo</div>
+            <div class="nav-tog">
+                <a class="open" href="#" onclick="tog()">☰</a>
+            </div>
+            <div class="nav-right">
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#tour">Tour</a></li>
+
+            </div>
+        </div>
+
+
+        <div class="con-heading">Join Our Camp</div>
+        <div class="con-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptates nisi rerum
+            repellat. Ipsa, eveniet saepe, repellendus maiores laborum tenetur incidunt est voluptate ratione
+            consequatur dolorem totam itaque dicta explicabo. Dolorem, quo labore in ut id odit. Velit, quae iusto.
+        </div>
+        <div class="con-btn">Explore the Community</div>
+    </div>
+
+
+    <div class="con-2 services con" id="services">
+        <div class="con-heading">Services
+        </div>
+        <div class="con-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem aperiam,
+            accusantium recusandae minus eveniet natus aliquid ducimus libero suscipit magni rerum perferendis aliquam
+            ratione. Blanditiis quo eligendi tempora quibusdam sapiente suscipit, corrupti tempore quia assumenda
+            tenetur harum. Numquam explicabo earum repellendus molestias sapiente quisquam amet temporibus saepe ipsum
+            expedita! Minus distinctio voluptatibus, ab nulla ea illum nostrum voluptates accusamus, temporibus fugiat,
+            veritatis assumenda enim consequatur nisi tempore officia sed. Maiores in enim officiis incidunt et ea
+            pariatur qui dignissimos? Quibusdam at ad aliquam hic. Nam provident necessitatibus quo culpa esse dicta
+            ducimus eius, cum, recusandae deleniti qui ex impedit, aut earum sit voluptas cumque praesentium soluta
+            nisi! Laboriosam sit sapiente ipsam magnam culpa eligendi officia amet deserunt. Optio atque fugiat libero
+            consequuntur, porro provident id alias, laboriosam perferendis facilis perspiciatis, commodi minus omnis nam
+            obcaecati ipsum voluptatum nihil quidem.</div>
+    </div>
+    <!-- top link -->
+    <div class="top-link">
+        <a href="#home" style="text-decoration: none;color:white;"> &#8593;</a>
+    </div>
+
+    <div class="con-3 about con" id="about">
+        <div class="con-heading">About</div>
+        <div class="con-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sequi exercitationem non?
+            Doloribus sapiente eligendi asperiores reprehenderit maxime ducimus, id animi debitis optio itaque dolorum
+            sed perspiciatis soluta voluptatibus doloremque quae, nisi magnam? Laudantium temporibus sint cum aliquam
+            necessitatibus voluptas natus debitis molestiae amet tenetur adipisci hic soluta iusto error explicabo
+            dignissimos, assumenda ducimus fuga unde odit maxime. Possimus assumenda adipisci, expedita incidunt cumque,
+            voluptatem aliquam reprehenderit quisquam consequatur, exercitationem quidem voluptatibus esse deserunt qui
+            unde accusantium illum quis aperiam veniam nihil sint fuga illo eius rem! Provident dignissimos vitae, dolor
+            quod, temporibus alias nostrum ipsam harum neque, sequi mollitia. Distinctio quas reprehenderit aliquid
+            corporis blanditiis alias exercitationem? Beatae voluptate, fugit aliquam maiores cum explicabo culpa
+            mollitia facere tempore, expedita impedit porro. Atque error assumenda beatae pariatur ullam unde aliquam
+            alias adipisci mollitia culpa, et inventore quod porro soluta dolorum.</div>
+    </div>
+
+    <div class="con-4 tour con" id="tour">
+        <div class="con-heading">Features Tours</div>
+        <div class="con-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quasi enim magni iste, minus
+            sapiente excepturi! Libero facere ullam ducimus sapiente voluptatibus ut delectus error maxime laudantium
+            natus fugit reprehenderit magni corporis placeat sunt eaque, consequuntur vel, dolores totam quaerat
+            officiis necessitatibus doloremque. Corrupti labore tempore porro impedit! Molestiae, ipsa ab. Dolores
+            adipisci dolore dicta dolor mollitia ipsam quam molestias voluptatibus nulla nisi accusamus, quaerat quas
+            exercitationem ipsa tenetur dolorum officia placeat quae molestiae consequuntur eligendi voluptate vel iste.
+            Ratione nihil minus commodi dolor neque! Doloremque, quas! Consectetur, iure! Necessitatibus, laboriosam
+            provident magni culpa cupiditate nulla minus dolores dolorum modi illo dolorem aut hic perferendis quas esse
+            deserunt aliquam architecto aliquid, voluptatibus labore molestiae cumque explicabo nisi et. Omnis
+            distinctio, molestiae non voluptate ut quaerat? Quaerat porro consequatur omnis doloribus molestias aliquam,
+            ab esse quod quis vitae facere harum maiores?</div>
+    </div>
+
+
+    <div class="footer">
+        <div class="f-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ea odio corporis laudantium
+            magnam consectetur ullam repellendus ratione.</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+} -->

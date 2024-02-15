@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 756px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    background: lightskyblue;
+
+    
+
+}
+.con-sbox{
+    width: 400px;
+    height: 540px;
+    background: rgb(204, 203, 203);
+    padding: 12px;
+    
+    border-radius: 5px;
+    margin: 5% 0;
+    overflow-y: scroll;
+}
+.con-sbox::-webkit-scrollbar{
+    display: none;
+}
+
+
+.con-inp{
+    width: 340px;
+    margin: auto;
+    height: 40px;
+    margin: 5px auto;
+    background: gainsboro;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+
+    
+    
+
+}
+.con-inp input{
+    width: 85%;
+    height: 100%;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.2rem;
+    color: cadetblue;
+    font-family: sans-serif;
+    background: lightyellow;
+    
+    
+}
+.con-inp span{
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+
+   
+}
+
+
+
+
+.con-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 90px;
+    
+    
+}
+.pro-img{
+    width: 75px;
+    height:65px ;
+    padding: 4px;
+     border: 1px  solid rgba(236, 230, 230, 0.945);
+     background: rgba(253, 251, 251, 0.938);
+
+}
+.pro-img:hover{
+    transform: scale(1.6);
+    cursor: pointer;
+}
+
+.pro-img img{
+    width: 65px;
+    height: 55px;
+    object-fit: cover;
+   
+}
+.con-product .pro-details{
+    width: 70%;
+    height: 80px;
+    padding: 5px 0;
+    line-height: 1.3;
+
+
+}
+.pro-details .pro-name{
+    font-size: 1.5rem;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+.pro-details .pro-price{
+    font-size: 1.2rem;
+    color:blue;
+    font-family: serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:220px) and (max-width: 600px) {
+html{
+font-size:10px;
+
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width:768px) and (min-width:600px) {
+html{
+font-size: 12px;
+}
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(max-width:992px) and (min-width:768px){
+html{
+font-size: 14px;
+}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1200px){
+html{
+font-size: 16px;
+
+
+}
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+

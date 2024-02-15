@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(185deg,red,rgb(3, 191, 248));
+    width: 100%;
+    height:100vh;
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    
+    margin: auto;
+    
+}
+.container .con-img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    cursor: col-resize;
+    
+
+}
+.con-img img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.con-img .img-wrap{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+overflow: hidden;
+    position:absolute;
+    top: 0;
+    
+  
+}
+.img-wrap img{
+    width: 100%;
+    
+}
+
+
